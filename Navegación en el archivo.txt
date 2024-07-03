@@ -1,0 +1,46 @@
+Para abrir un archivo desde el editor de texto VIM debemos 
+teclear ":edit" y la ubicación del archivo, como ejemplo:
+	":edit Navegación\ en\ el\ archivo.txt"
+
+Con la tecla "w" en el modo normal nos permite saltar de palabra en palabra
+cada vez que la presionamos el cursor se posiciona en el inicio de la siguiente palabra.
+Funciona con Mayuscula y minuscula. 
+
+Con la tecla "e" en el modo normal tambien nos permite saltar de palabra en palabra
+pero a diferencia de la tecla "w" cada vez que la presionamos el cursor se posiciona 
+al final de la siguiente palabra.
+Funciona con Mayuscula y minuscula.
+
+Con la letra "b" podemos regresar una palabra, el cursor se posiciona al inicio de la palabra.
+
+Si queremos navegar entre lineas de manera mucho mas rapida,
+debemos entrar al modo normar y escribir el numero de lineas que queremos navegar,
+por ejemplo si queremos ir 5 lineas hacia abajo tendriamos que teclear de la siguiente manera
+"5 j", con esto indicamos el numero de linear con el numero 5 y la dirección 
+hacia la que queremos navegar.
+
+Para subir seria la misma dinamica, primero el numero de lineas y en lugar
+de la letra "j" seria la letra "k".
+
+Con la letra "f" buscamos letras, la letra que le indiques la va a buscar hacia adelante,
+por ejemplo en el siguiente texto:
+
+"Para que los humanos puedan conseguir algo, deben dejar algo atras."
+
+Si nuestro cursor esta al inicio en la palara "Para" y le 
+damos la instrucion "f s" el cursor se va a posicionar en
+la letra "s" de la palabra "humanos" ya que es la primera "s" que encuentra.
+Esto solo funciona para buscar dentro de la misma linea de texto.
+
+Para ir al inicio de una linea presionamos en numero "0".
+Para ir al final de una linea presionamos "shift + 4" o el signo de "$".
+
+Para buscar una palabra en todo el archivo, pot ejemplo la palabra "function"
+en un archivo de Javascript, solo nos tenemos que posicionar en la palabra que quermos buscar
+y despues teclear "*" con esto va a buscar todas las veces que aparece esta palabra en 
+el archivo en el que estamos.
+
+Para ir al inicio de un archivo presionamos dos veces la tecla "g".
+Para ir al final de un archivo presionamos la tecla "G".
+
+ 

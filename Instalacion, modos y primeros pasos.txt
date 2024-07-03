@@ -1,0 +1,32 @@
+Comandos de instalación de VIM:
+    Ubuntu: sudo apt install vim
+    Fedora: sudo dnf install vim
+    Arch: sudo pacman -S vim
+
+Para entrar al editor VIM solo es necesario escribir en la terminal: "vi"
+Para salir del editor VIM escribimos ":q"
+Para obtener ayuda escriba ":help"
+
+Para navegar en un archivo de texto podemos hacerlo solo con las letras "h, j, k, l"
+    "h": Izquierda
+    "j": Abajo
+    "k": Arriba
+    "l": Derecha
+
+Para poder editar el archivo primero es necesario teclear la letra "i"
+esto le indica a VIM que active el modo de "INSERTAR", despues de eso ya podremos
+editar nuestro archivo.
+
+Para salir del modo "INSERTAR" debemos presionar la tecla "esc", con esto regresamos
+al modo "NORMAL" donde solo podemos navegar dentro del archivo.
+
+Para guardar los cambios realizados en un archivo debemos teclear: ":w", con esto
+le indicamos que escriba todos los cambios realizados.
+Adicional a esto despues de ejecutar ":w" tenemos que ejecutar ":q" para idicar la salida
+del editor, VIM nos da la oprtunidad de ejecutar dos ordenes al mismo tiempo para poder
+ahorrarnos un paso, la indicacion seria la siguiente: ":wq",
+con esto estamos guardando y saliendo del editor al mismo tiempo.
+
+Para forzar la salida de un archivo sin guardar los cambio debemos
+teclear ":q!", el signo de adminración indica cierre forzado y los cambios realizados 
+no se guardaran.
