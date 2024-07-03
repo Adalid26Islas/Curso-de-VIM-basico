@@ -1,1 +1,26 @@
- 
+Cuando queremos insertar una nueva linea ya sabemos que tenemos que entrar el modo "INSERTAR", 
+seguido de esto tenemos que irnos al final de la linea en la que estamos y dar un "ENTER".
+
+Para hacer esto de manera mas facil podemor unicamente presionar la tecla "o" dese el modo "NORMAL",
+con esto hacemos 3 pasos en uno solo:
+	1. Entramos en el modo "INSERTAR".
+	2. Nos envia al final de la linea.
+	3. Inserta una nueva linea donde en seguida podemos comenzar a escribir.
+
+Con la letra "x" podemos borrar el caracter en el que esta puesto el cursor.
+Con la letra "X" borramos el caracter anterior del que esta en el cursor.
+
+Con la letra "r" podemos reemplazar un caracter sin nicesidad de estar en el modo insertar, esto 
+es muy util si nos llegamos a equivocar en alguna palabra, ya no tenemos que 
+ingresar al modo "INSERTAR", directamente podemos hacerlos unicamente con la letra "r".
+
+Presionando las teclas "d" y "w" podemos borrar una palabra completa 
+unicamente tenemos que ubicarnos al inicio de la palabra que queremos borrar.
+
+Presionando dos veces la letra "d" podemos cortar una linea.
+Para pegar una linea que hayamos cortado solo debemos presionar la letra "p".
+
+Para copiar toda una linea presionamos dos veces la tecla "y".
+
+Para copiar un numero especifico de lineas basta con indicar el numero de linear
+y despues presionar dos veces la letra "y".

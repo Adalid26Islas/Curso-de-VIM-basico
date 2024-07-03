@@ -1,1 +1,7 @@
- 
+Para buscar una palabra podemos usar la siguiente sintaxis:
+	/{palabra} 
+Con esto el cursor se posicionará en la primer coincidencia que encuentre de esa palabra,
+en caso de que esa palabra se repita muchas veces, presionando la tecla "n"
+podremos ir avanzando sobre los demas resultados.
+
+Presionando la letra "u" podemos deshacer cambios.
